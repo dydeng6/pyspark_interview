@@ -1,0 +1,10 @@
+hive, hive, world, hadoop, world, sqoop, hive, world, hive, hadoop
+hadoop, sqoop, world, sqoop, world, hadoop, hive, world, sqoop, hive
+sqoop, sqoop, hive, hadoop, world, sqoop, sqoop, world, hadoop, world
+world, world, sqoop, world, hadoop, sqoop, world, hadoop, sqoop, hive
+sqoop, world, hive, hadoop, hadoop, world, hive, hadoop, world, sqoop
+world, hadoop, sqoop, world, world, sqoop, hive, hadoop, world, sqoop
+hive, world, sqoop, world, sqoop, sqoop, world, hadoop, world, hive
+sqoop, hadoop, world, sqoop, hive, world, sqoop, world, world, hadoop
+hadoop, hive, world, sqoop, world, sqoop, world, sqoop, hive, sqoop
+hive, hive, hadoop, sqoop, world, sqoop, world, sqoop, hadoop, world
