@@ -1,3 +1,8 @@
+''' python code
+input = 'aabbbcddeehhhhh'
+# output = [2,3,1,2,2,4]
+'''
+
 from pyspark.sql.functions import length, struct
 
 input = 'aabbbcddeehhhhh'

@@ -1,10 +1,13 @@
-
+# ''' pyspark code
+# input = 'aabbbcddeehhhhh'
+# # output = [2,3,1,2,2,4]
+# '''
 from pyspark.sql.functions import udf
 from pyspark.sql.types import ArrayType, StructType, StructField, StringType, IntegerType
 from pyspark.sql import SparkSession
 
 # 创建 SparkSession
-spark = SparkSession.builder.getOrCreate()
+spark = SparkSession.builder.appName('test_19_2').getOrCreate()
 
 # 定义函数
 def f_counters(input):
