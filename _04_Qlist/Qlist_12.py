@@ -14,7 +14,7 @@ data = [
 ]
 schema = "name string,item string,weight int"
 df = spark.createDataFrame(data, schema)
-
+df.show()
 df_gb = df.groupBy('name','item').agg(sum(df.weight).alias('sum_weight'))
 df_final = df_gb.groupBy('name').agg(collect_list(struct('item','sum_weight')).alias('items'))
 
